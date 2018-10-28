@@ -1,14 +1,15 @@
-def roll_call_dwarves(array)
-  roll_call = []
-  i = 0
-  while i < array.length
-    array.each_with_index { |dwarf,i| roll_call << "#{dwarf}" }
-    puts roll_call.last
-  end
-end
+# def roll_call_dwarves(array)
+#   roll_call = []
+#   i = 0
+#   while i < array.length
+#     array.each_with_index { |dwarf,i| roll_call << "#{dwarf}" }
+#     puts roll_call.last
+#   end
+# end
 
 def summon_captain_planet(array)
-  # Your code here
+ calls = []
+ array.collect 
 end
 
 def long_planeteer_calls# code an argument here
