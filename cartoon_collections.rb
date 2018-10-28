@@ -4,7 +4,7 @@ def roll_call_dwarves(array)
   while i < array.length
     array.each_with_index { |dwarf,i| roll_call << "#{dwarf}" }
     puts roll_call[i]
-    i
+    i += 1
   end
 end
 
