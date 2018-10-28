@@ -1,8 +1,13 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(array)
+  roll_call = []
+  i = 0
+  while i < array.length
+    array.each_with_index { |dwarf,i| roll_call << "#{dwarf}" }
+    puts roll_call.last
+  end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(array)
   # Your code here
 end
 
